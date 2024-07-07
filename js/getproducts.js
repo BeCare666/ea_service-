@@ -251,10 +251,11 @@
         document.getElementById('payMyInvoice').addEventListener('click', function(){
 
             var filteredProducts = cartItems.map(function(product) {
+                var links = `https://ea-services.netlify.app/product-detail.html?id=${product.id} `
                 return {
-                  id: product.id,
-                  name: product.name,
-                  price: product.price,
+                 links: links,
+                  //name: product.name,
+                  //price: product.price,
                   // Vous pouvez ajouter d'autres propriétés si nécessaire
                 };
               });

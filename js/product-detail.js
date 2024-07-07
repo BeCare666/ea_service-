@@ -70,12 +70,11 @@ if (productData) {
     DescriptionProduct.innerHTML = `${productData.Genboxtextarea}`
     TypeCateId.innerHTML = `${productData.Category}`
     ToAddToCard.innerHTML = `
-    <a href="https://wa.me/+22997329399?text=Salut Azizdeen,%20comment%20allez-vous%20?20%Je%20suis%20vraiment%20intéressé%20par%20cet article%20que%20j'ai%20vu%20sur%20votre%20site.
-    J'aimerais en savoir plus s'ils vous plaît. Voici le lien du produit  : ${encodeURIComponent('https://azizdeenx.netlify.app/product-detail.html?id=' + `${productData.Idproduct}`)}"
+    <a href="https://wa.me/+22966766916?text=Salut ea-services,%20comment%20allez-vous%20?20%Je%20suis%20vraiment%20intéressé%20par%20cet article%20que%20j'ai%20vu%20sur%20votre%20site.
+    J'aimerais en savoir plus s'ils vous plaît. Voici le lien du produit  : ${encodeURIComponent('https://ea-services.netlify.app/product-detail.html?id=' + `${productData.Idproduct}`)}"
     class="p-view"  
     style="color: white !important;">
     Contactez-nous
-    
     </a>
     
     `
