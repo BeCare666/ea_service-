@@ -286,7 +286,7 @@
                     produits: filteredProducts
                 },
                 theme: "blue",
-                sandbox : "true",
+                sandbox : "false",
                 key: "0f2c2da0b2e6b2fcf550c995f96082856f91dedc",
               });
              
