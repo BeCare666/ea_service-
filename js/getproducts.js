@@ -287,7 +287,7 @@
                 },
                 theme: "blue",
                 sandbox : "true",
-                key: "6979f3c098d511ee9fde7de6592cc8b4",
+                key: "0f2c2da0b2e6b2fcf550c995f96082856f91dedc",
               });
              
               //la reponse du payement kkiapay
